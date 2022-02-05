@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+#find-pages {
+    margin-top: 20px;
+}
+
+form > input {
+    padding-left: 20px;
+}
+
+#input {
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 2em;
+    border-width: 1px;
+    border-color: gainsboro;
+    width: 500px;
+    height: 40px;
+}
+
+#submit {
+    margin-top: 30px;
+    background-color: ghostwhite;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: .3em;
+}
+
+#submit:hover {
+    border-color: rgb(148, 148, 148);
+}
+
+#advanced-submit {
+    background-color: rgb(155, 195, 255);
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: .3em;
+}
+
+#advanced-submit:hover {
+    background-color: rgb(189, 214, 253);
+}
+
+#pages {
+    text-align: right;
+    margin: 20px;
+    padding: 20px;
+}
+
+#pages > a {
+    color: rgba(0, 0, 0, 0.753);
+    text-decoration: none;
+    padding: 10px;
+}
+
+#pages a:hover {
+    text-decoration: underline;
+}
